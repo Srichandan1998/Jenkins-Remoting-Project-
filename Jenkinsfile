@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage("Code"){
             steps{
-                clone("https://https://github.com/Srichandan1998/Cloudcredits.git","master")
+                clone("https://github.com/Srichandan1998/Jenkins-Remoting-Project-.git","master")
                 echo "Code clonning done."
             }
         }
