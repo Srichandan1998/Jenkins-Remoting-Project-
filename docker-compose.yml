@@ -19,8 +19,7 @@ services:
       retries: 3
 
   bankapp:
-    build:
-     context: .
+    image: dhappy1998/bankapp-mini:latest
     container_name: bankapp-mini
     environment:
       SPRING_DATASOURCE_USERNAME: root
