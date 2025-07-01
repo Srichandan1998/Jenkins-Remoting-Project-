@@ -18,7 +18,7 @@ pipeline{
         }
         stage("Push to DockerHub"){
             steps{
-                dockerpush("dockerHub","bankapp-mini","latest")
+                dockerpush("dockerHubCreds","bankapp-mini","latest")
                 echo "Push to dockerHub is also done."
             }
         }
